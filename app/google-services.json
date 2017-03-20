@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "413760800851",
+    "firebase_url": "https://inclassassignment07.firebaseio.com",
+    "project_id": "inclassassignment07",
+    "storage_bucket": "inclassassignment07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413760800851:android:6a8c4354823a0617",
+        "android_client_info": {
+          "package_name": "net.jptechnology.android.inclassassignment07_johnp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413760800851-sp59i92n8lt104tqd67u59n4iq1ua80j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQUh3KNzEb6nb44sGOVSlYldbQnyiAb7I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
