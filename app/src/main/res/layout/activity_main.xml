@@ -5,12 +5,50 @@
     android:layout_height="match_parent"
     tools:context="net.jptechnology.android.inclassassignment07_johnp.MainActivity">
 
-    <Button
+    <LinearLayout
         android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Title"
+            android:id="@+id/titleText" />
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Set"
+        android:text="Set Title"
         android:onClick="set"
-        tools:layout_editor_absoluteY="124dp"
+        tools:layout_editor_absoluteY="231dp"
         tools:layout_editor_absoluteX="8dp" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Country"
+            android:id="@+id/countryText" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Exchange Rate"
+            android:id="@+id/exchangeRateText"
+            android:inputType="number" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I would like to buy!"
+            android:id="@+id/check_box" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Currency"
+            android:onClick="add" />
+
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>
